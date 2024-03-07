@@ -19,7 +19,7 @@ assign b6 = (number[6] == 1) ? 6 : 0;
 assign c0 = (b1 >= b0) ? b1 : b0;
 assign c1 = (b3 >= b2) ? b3 : b2;
 assign c2 = (b5 >= b4) ? b5 : b4;
-assign c1 = (b7 >= b6) ? b7 : b6;
+assign c3 = (b7 >= b6) ? b7 : b6;
 
 assign d0 = (c1 >= c0) ? c1 : c0;
 assign d1 = (c3 >= c2) ? c3 : c2;
