@@ -13,6 +13,7 @@ assign b3 = (number[3] == 1) ? 3 : 0;
 assign b4 = (number[4] == 1) ? 4 : 0;
 assign b5 = (number[5] == 1) ? 5 : 0;
 assign b6 = (number[6] == 1) ? 6 : 0;
+assign b7 = (number[7] == 1) ? 7 : 0;
 assign pow = b0 | b1 | b2 | b3 | b4 | b5 | b6;
 
 endmodule

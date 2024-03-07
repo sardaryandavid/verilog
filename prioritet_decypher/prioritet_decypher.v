@@ -1,4 +1,4 @@
-module get_pow
+module prioritet_decypher
 (
 	input [7:0] number,
 	output [2:0] ub
@@ -15,6 +15,7 @@ assign b3 = (number[3] == 1) ? 3 : 0;
 assign b4 = (number[4] == 1) ? 4 : 0;
 assign b5 = (number[5] == 1) ? 5 : 0;
 assign b6 = (number[6] == 1) ? 6 : 0;
+assign b7 = (number[7] == 1) ? 7 : 0;
 
 assign c0 = (b1 >= b0) ? b1 : b0;
 assign c1 = (b3 >= b2) ? b3 : b2;
